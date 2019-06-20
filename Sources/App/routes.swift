@@ -12,6 +12,14 @@ public func routes(_ router: Router) throws {
         return "Hello, world!"
     }
 
+    router.get("stories") { req in
+        return [Story(id: 123, iconTitle: "iconTitle", iconURL: "iconURL", pages:
+                    [StoryPage(id: 1, imageURL: "imageURL", title: "title", description: "description"),
+                     StoryPage(id: 1, imageURL: "imageURL", title: "title", description: "description")]),
+                Story(id: 123, iconTitle: "iconTitle", iconURL: "iconURL", pages:
+                    [StoryPage(id: 1, imageURL: "imageURL", title: "title", description: "description")])]
+    }
+
     // Example of configuring a controller
     let todoController = TodoController()
     router.get("todos", use: todoController.index)
