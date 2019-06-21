@@ -18,7 +18,7 @@ public func routes(_ router: Router) throws {
                      StoryPage(id: 12, imageURL: "https://avatars.mds.yandex.net/get-pdb/69339/3cc3bee7-92ad-4764-95b3-1564b40e5491/s1200", title: "tit111le", description: "desc3123ription")]),
                 Story(id: 1123, iconTitle: "iconTitle", iconURL: "https://avatars.mds.yandex.net/get-pdb/911433/88d9f108-cc8d-4717-a23f-311c83b2408c/s1200", pages:
                     [StoryPage(id: 13, imageURL: "https://avatars.mds.yandex.net/get-pdb/1779125/877f261f-f3fe-442a-9551-322855b86b76/s1200", title: "title12", description: "description"),
-                    StoryPage(id: 13, imageURL: "https://avatars.mds.yandex.net/get-pdb/1779125/877f261f-f3fe-442a-9551-322855b86b76/s1200", title: "title12", description: "description")])]
+                    StoryPage(id: 13, imageURL: "https://avatars.mds.yandex.net/get-pdb/1008348/13793c0b-3325-4e64-bb91-83ddea8948ad/s1200", title: "title123123", description: "descr213123iption")])]
     }
 
     // Example of configuring a controller
